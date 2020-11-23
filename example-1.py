@@ -27,7 +27,7 @@ file = 'https://bulk.meteostat.net/daily/10729.csv.gz'
 df = pd.read_csv(file, compression = 'gzip', names = columns, parse_dates = { 'time': [0] }, index_col = 'time')
 
 # Describe the DataFrame
-print(df.head())
+print(df)
 
 # Plot a simple chart
 #df.plot(y = 'tavg', kind = 'line')

@@ -1,5 +1,5 @@
 """
-Aggregating Data with Pandas
+Aggregating data with Pandas
 """
 
 import pandas as pd

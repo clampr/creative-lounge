@@ -1,5 +1,5 @@
 """
-Effect of Climate Change on Precipitation
+Effect of climate change on precipitation
 """
 
 import pandas as pd
